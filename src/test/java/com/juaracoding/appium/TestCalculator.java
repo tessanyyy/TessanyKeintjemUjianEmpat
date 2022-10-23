@@ -23,7 +23,7 @@ public class TestCalculator {
         capabilities.setCapability("deviceName", "Testing");
         capabilities.setCapability("udid", "emulator-5554");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("platformVersion", "7.1.1");
+        capabilities.setCapability("platformVersion", "9");
         capabilities.setCapability("appPackage", "com.google.android.calculator");
         capabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 
