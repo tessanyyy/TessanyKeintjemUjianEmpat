@@ -40,21 +40,21 @@ public class TestCalculator {
     public void testKurang() {
         calculator.calcKurang();
         System.out.println("Hasil = "+calculator.getTxtHasil());
-        Assert.assertEquals(calculator.getTxtHasil(), "1");
+        Assert.assertEquals(calculator.getTxtHasil(), "2");
     }
 
     @Test(priority = 2)
     public void testKali() {
         calculator.calcKali();
         System.out.println("Hasil = "+calculator.getTxtHasil());
-        Assert.assertEquals(calculator.getTxtHasil(), "4");
+        Assert.assertEquals(calculator.getTxtHasil(), "6");
     }
 
     @Test(priority = 3)
     public void testBagi() {
         calculator.calcBagi();
         System.out.println("Hasil = "+calculator.getTxtHasil());
-        Assert.assertEquals(calculator.getTxtHasil(), "3");
+        Assert.assertEquals(calculator.getTxtHasil(), "2");
     }
 
     @AfterClass
